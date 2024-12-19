@@ -7,7 +7,6 @@ use axum::{
 		StatusCode,
 	},
 	response::IntoResponse,
-	Router,
 };
 use crate::fb::fb_range;
 use hyper::server::conn::http1;
